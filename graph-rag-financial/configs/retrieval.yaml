@@ -1,0 +1,22 @@
+# Retrieval mode configurations
+# Override defaults from src/utils/config.py for specific experiments.
+
+default:
+  vector_top_k: 8
+  graph_max_hops: 2
+  chunk_size: 512
+  chunk_overlap: 50
+
+aggressive_graph:
+  # Bias toward graph traversal for relationship-heavy domains
+  vector_top_k: 4
+  graph_max_hops: 3
+  chunk_size: 384
+  chunk_overlap: 64
+
+vector_only:
+  # Baseline: pure RAG without graph
+  vector_top_k: 12
+  graph_max_hops: 0
+  chunk_size: 512
+  chunk_overlap: 50

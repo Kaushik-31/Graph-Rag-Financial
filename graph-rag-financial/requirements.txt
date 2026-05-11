@@ -1,0 +1,15 @@
+langchain==0.2.16
+langchain-openai==0.1.23
+langchain-community==0.2.16
+neo4j==5.23.0
+pinecone-client==5.0.1
+openai==1.43.0
+tiktoken==0.7.0
+python-dotenv==1.0.1
+pydantic==2.8.2
+pyyaml==6.0.2
+pandas==2.2.2
+numpy==1.26.4
+tqdm==4.66.5
+pytest==8.3.2
+unstructured==0.15.7
